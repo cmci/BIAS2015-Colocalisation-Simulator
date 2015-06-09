@@ -3,10 +3,14 @@
 *BIAS2015 Colocalisation Simulator is an ImageJ plugin aimed at generating synthetic images to teach co-localisation methods.*
 
 ## Simulation mode
-* ** Random:**
-* ** Pure co-localisation:**
-* ** Exclusion:**
-* ** Inclusion:**
+* **Random:**
+  * Channel 1 and 2 images are generated independently.
+* **Pure co-localisation:**
+  * Channel 2 is the exact copy of channel 1: parameters entered under the channel 2 section are not taken into account. 
+* **Exclusion:**
+  * TO BE IMPLEMENTED. 
+* **Inclusion:**
+  * Channel 1 describes hollow elements, channel 2 elements that will fit into the emptied part of channel 1's objects.
 
 ## Parameters
 
